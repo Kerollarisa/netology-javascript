@@ -52,7 +52,7 @@ if (targetChar.toLowerCase() === pressedChar.toLowerCase()) {
   }
 
   fail() {
-    if (++this.lossElement.textContent === 5) {
+    if (++this.lossElement.textContent === 3) {
       alert('Вы проиграли!');
       this.reset();
     }
